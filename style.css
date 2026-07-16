@@ -1,0 +1,164 @@
+*{
+    margin:0;   
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Popins' sans-serif;
+}
+body{
+    color: white;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20 70;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    background:red ;
+    color: white;
+    transition:0.5s;
+}
+h1{
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+.nine{
+    background-color: black;
+}
+div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+h3{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.one{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.two{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    margin-top:40px;
+    flex-wrap:wrap;
+    background-color: #fff;
+}
+
+.two a{
+    text-decoration:none;
+    width:180px;
+    height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fff;
+    color:#222;
+    border-radius:12px 12px 0 0;
+    font-size:22px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.two a:hover{
+    background:red;
+    color:white;
+}
+.two a:active{
+    background:white;
+    color:red;
+}
+.card{
+    width:280px;
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.25);
+}
+
+.card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.card h3{
+    margin-top:20px;
+    font-size:24px;
+    color:rgb(0, 0, 0);
+}
+
+.card p{
+    margin-top:8px;
+    color:black;
+    font-size:17px;
+}
+
+.price{
+    margin-top:18px;
+}
+
+.new{
+    font-size:28px;
+    font-weight:bold;
+    color:black;
+}
+
+.old{
+    margin-left:12px;
+    color:#999;
+    text-decoration:line-through;
+    font-size:18px;
+}
+
+@media(max-width:1200px){
+
+.products{
+    justify-content:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.card{
+    width:90%;
+}
+
+.featured h1{
+    font-size:32px;
+}
+
+}
+
